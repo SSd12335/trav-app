@@ -141,6 +141,7 @@ def main():
     st.set_page_config(page_title="여행 도우미 ✈️", layout="wide", page_icon="🌎")
 
     with st.container():
+        st.image('./Bot_Image.png', use_container_width=True)
         st.title("여행 도우미 ✈️ RAG + 실시간 검색")
         st.caption("PDF 가이드+티켓 규정은 RAG로, 최신 정보(날씨/환율/영업시간/휴무/현지뉴스)는 웹검색으로!")
 
